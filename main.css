@@ -1,0 +1,48 @@
+
+/*Global Styles*/
+body {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+}
+
+/*Header Section Styles*/
+.header-image {
+    box-sizing: content-box;
+    background-image: url("images/desktop/image-header.jpg");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 170px;
+}
+
+.navbar {
+    padding: 34px 40px;
+}
+
+.container-fluid {
+    padding: 0;
+    height: 56px;
+}
+
+/*Intro Section Styles*/
+
+/*Services Section Styles*/
+
+/*Testimonial Section Styles*/
+
+/*Footer Section Styles*/
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

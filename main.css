@@ -17,6 +17,11 @@ body {
     background-size: cover;
 }
 
+.image-cell {
+    background-size: cover;
+    background-position: center;
+}
+
 .logo {
     width: 170px;
 }
@@ -35,6 +40,10 @@ body {
     color: white;
 }
 
+.nav-link:hover {
+    color: #808397;
+}
+
 .big-button {
     background-color: #FFF;
     height: 56px;
@@ -48,6 +57,11 @@ body {
     color: black;
     text-transform: uppercase;
     text-align: center;
+}
+
+.big-button:hover {
+    color: #FFF;
+    background-color: rgba(255, 255, 255, 0.25);
 }
 
 .big-button-text {
@@ -81,8 +95,125 @@ body {
 
 /*Intro Section Styles*/
 
+.row {
+    height: 600px;
+    background-color: #FFFFFF;
+}
+
+.intro-text-column {
+    padding: 10% 9% 10% 10%;
+}
+
+.intro-img-egg {
+    background-image: url("images/desktop/image-transform.jpg");
+    max-height: 600px;
+}
+
+.intro-img-cup {
+    background-image: url("images/desktop/image-stand-out.jpg");
+}
+
+.intro-title {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -0.29px;
+    color: black;
+}
+
+.intro-text {
+    color: #808397;
+    letter-spacing: -0.13px;
+    line-height: 30px;
+    padding: 2.5rem 0;
+}
+
+.intro-cta {
+    width: 130px;
+    height: 50px;
+    position: relative;
+}
+
+.intro-cta-text {
+    font-family: 'Fraunces', serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, 0);
+    z-index: 1;
+}
+
+[class^='intro-cta-accent-'] {
+    position: absolute;
+    bottom: -10px;
+    height: 10px;
+    width: 100%;
+    opacity: 0.25;
+    z-index: 0;
+    border-radius: 27px;
+    transition: opacity 0.15s;
+}
+
+.intro-cta-accent-yellow {
+    background-color: #FAD400;
+}
+
+.intro-cta-accent-pink {
+    background-color: #FE7766;
+}
+
+.intro-cta-text:hover {
+    color: black;
+}
+#yellow-hover:hover+ .intro-cta-accent-yellow {
+    opacity: 1;
+}
+
+#pink-hover:hover+ .intro-cta-accent-pink {
+    opacity: 1;
+}
 /*Services Section Styles*/
 
+.services {
+    padding-top: 27%;
+    padding-left: 13%;
+    padding-right: 13%;
+    text-align: center;
+}
+
+.services-cherries {
+    background-image: url("images/desktop/image-graphic-design.jpg");
+    color: #24554A;
+}
+
+.services-orange {
+    background-image: url("images/desktop/image-photography.jpg");
+    color: #052C3B;
+}
+
+.services-title {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.2px;
+}
+
+.services-text {
+    padding-top: 10%;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+}
 /*Testimonial Section Styles*/
 
 /*Footer Section Styles*/
